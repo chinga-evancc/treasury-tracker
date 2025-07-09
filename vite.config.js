@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   preview: {
-    host: '0.0.0.0',
+    host: 'treasury-tracker-production.up.railway.app',
     port: process.env.PORT || 4173,
   },
   build: {
